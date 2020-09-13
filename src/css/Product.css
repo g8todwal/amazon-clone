@@ -1,0 +1,48 @@
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	max-height: 400px;
+	min-width: 100px;
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+	width: 100%;
+}
+
+.product_info {
+	height: 100px;
+	margin-bottom: 0px;
+}
+
+.product_title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.product_price {
+	margin-top: -18px;
+	margin-bottom: -5px;
+	font-size: 20px;
+}
+
+.star {
+	color: orange;
+	font-size: 20px;
+	margin-top: -50px;
+}
+
+.product > img {
+	width: 95%;
+	max-height: 250px;
+	object-fit: contain;
+	margin-top: -50px;
+	margin-bottom: 0px;
+}
+
+.amazon_btn {
+	background-color: #f0c352;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+}

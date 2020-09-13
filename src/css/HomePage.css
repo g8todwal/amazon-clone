@@ -1,0 +1,60 @@
+.home_row {
+	display: flex;
+	z-index: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.sign_up {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-height: 400px;
+	min-width: 100px;
+	background-color: white;
+	width: 90%;
+	margin: 10px 60px 10px 10px;
+	padding: 20px 20px 20px 20px;
+}
+
+.sign_p {
+ 	font-weight: bold;
+ 	font-size: 25px;
+}
+
+.amazon_btn {
+	background-color: #febd69;
+	border-radius: 0.25rem;
+	border: 1px solid;
+	border-color: #a88734 #9c7e31 #846a29;
+}
+
+.amazon_btn:hover {
+	background-color: #EAA91E;
+}
+
+.sign_up_btn {
+	display: block;
+	padding: 8px;
+	width: 300px;
+}
+
+.cont {
+	display: flex;
+	flex-direction: column;
+}
+
+.image_sign {
+	width: 100%;
+	height: 150px;
+}
+
+.capture {
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.Ad {
+	margin: 15px 0px 5px 190px;
+}

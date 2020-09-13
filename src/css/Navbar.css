@@ -1,0 +1,110 @@
+.navba {
+	background: #131921;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	height: 60px;
+	padding-right: 15px;
+	z-index: 100;
+}
+
+.navbar-img {
+	width: 100px;
+	margin: 18px 20px 0 20px;
+}
+
+.nav_search {
+	display: flex;
+	flex: 1;
+}
+
+.navbar__input {
+	height: 40px;
+	padding: 15px;
+	border: none;
+	width: 95%;
+	border-bottom-left-radius: 0.2rem;
+	border-top-left-radius: 0.2rem;
+}
+
+.navbar-search-icon {
+	background-color: #cd9042;
+	height: 22px !important;
+	color: #131921;
+}
+
+.nav__links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav__link {
+	text-decoration-color: #131921;
+	color: white;
+	padding: 0;
+}
+
+.nav-link-options {
+	display: flex;
+	flex-direction: column;
+	margin: 6px 1.25rem 0 1.25rem;
+}
+
+.nav-link-basket {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+.nav-link-options-1 {
+	font-size: 12px;
+	color: lightgrey;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.nav-link-options-2 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -0.25rem;
+	padding: 0;
+}
+
+.nav-link-options-2:hover {
+	text-decoration-color: #131921; 
+}
+
+.basket-count {
+	margin: 0 15px -10.5px -13px; 
+	color: #cd9042;
+}
+
+.cart {
+	font-weight: 650;
+	text-decoration-color: white; 
+}
+
+.search {
+	border: none;
+	background-color: #cd9042;
+	border-bottom-right-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+}
+
+.nav__link:hover, .nav__link__search:hover {
+	color: white;
+	text-decoration-color: #131921;
+	border: 1px solid white;
+}
+
+.nav__link__search {
+	text-decoration-color: #131921;
+}
+
+.flag {
+	height: 1rem;
+	width: 1.5rem;
+	margin-bottom: -15px;
+}
